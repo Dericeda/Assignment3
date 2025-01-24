@@ -14,6 +14,7 @@ public class Task14 {
         public static Hobby HOBBY = new Hobby();
     }
 
+
     static class Hobby implements Desire, Dream {
         static int INDEX = 1;
 
