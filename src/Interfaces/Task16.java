@@ -9,6 +9,7 @@ public class Task16 {
 
         Integer getAge();
     }
+     class Color{}
 
      abstract public static class Fox implements  Animal{
         public String getName() {

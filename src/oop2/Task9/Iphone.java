@@ -13,7 +13,9 @@ public class Iphone {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
+        if (this == obj) {
+            return true;
+        }
         if (obj == null || getClass() != obj.getClass()) return false;
         Iphone iphone = (Iphone) obj;
         return price == iphone.price &&
