@@ -16,7 +16,9 @@ public class Iphone {
         if (this == obj) {
             return true;
         }
-        if (obj == null || getClass() != obj.getClass()) return false;
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
         Iphone iphone = (Iphone) obj;
         return price == iphone.price &&
                 model.equals(iphone.model) &&
